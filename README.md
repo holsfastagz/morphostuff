@@ -78,7 +78,7 @@ This function will determine how many principal components account for at least
 according to the following formula:
 
 $$
-\sqrt{\frac{1} {\mathrm{\#\ of\ characters}}}
+\sqrt{\frac{1} {\mathrm{number \ of\ characters}}}
 $$
 
 The input of this function should be the data frame generated as output of
