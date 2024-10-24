@@ -1,4 +1,4 @@
-# MorphoStuff
+# morphostuff
 
 ![coverage](https://img.shields.io/badge/coverage-70%25-yellowgreen)
 ![version](https://img.shields.io/badge/version-0.0.1-blue)
@@ -18,21 +18,21 @@ correction and principal component analysis.
 
 ## Installation
 
-MorphoStuff is not in PyPI yet, but I plan to add it in soon. In the meantime,
+morphostuff is not in PyPI yet, but I plan to add it in soon. In the meantime,
 it can be downloaded from GitHub using pip.
 
 ```sh
-python -m pip install MorphoStuff@git+https://github.com/holsfastagz/MorphoStuff.git
+python -m pip install morphostuff@git+https://github.com/holsfastagz/morphostuff.git
 ```
 
 ## Execution / Usage
 
 ### Importing
 
-You can import MorphoStuff into a Python script like so:
+You can import morphostuff into a Python script like so:
 
 ```python
-import MorphoStuff
+import morphostuff as mstuff
 ```
 
 ### allom Function
@@ -49,12 +49,12 @@ is recommended, but it can also take a Pandas data frame as input. Example:
 ```python
 morph_data = pl.read_csv('morph_data.csv')
 
-allom_data = allom(morph_data)
+allom_data = mstuff.allom(morph_data)
 ```
 
 This function outputs a table of allometrically corrected features.
 
-Use `help(allom)` for more information.
+Use `help(mstuff.allom)` for more information.
 
 ### morph_pca Function
 
@@ -63,13 +63,13 @@ characters (i.e., the output of `allom`). It should follow the same structure
 as the `allom` inputs.
 
 ```python
-morpho_data = morpho_stuff(allom_data)
+morpho_data = mstuff.morph_pca(allom_data)
 ```
 
 This function outputs a table containing allometric size corrections, a table
 containing PCA results, and a PCA biplot.
 
-Use `help(morpho_data)` for more information.
+Use `help(mstuff.morpho_data)` for more information.
 
 ### significant_features Function
 
@@ -85,18 +85,18 @@ The input of this function should be the data frame generated as output of
 `morph_pca`. 
 
 ```
-significant_features(morpho_data)
+significant_features = mstuff.significant_features(morpho_data)
 ```
 
 This function outputs a scree plot, barplots for each PC, a table of loadings
 of the significant PCS, and a table of significance of each character by PC.
 These outputs are all written to the disk.
 
-Use `help(significant_features)` for more information.
+Use `help(mstuff.significant_features)` for more information.
 
 ## Technologies
 
-MorphoStuff uses the following technologies and tools:
+morphostuff uses the following technologies and tools:
 
 - [Python](https://www.python.org/): ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 - [Polars](https://pola.rs/): <img src="https://github.com/pola-rs/polars-static/blob/master/logos/polars_logo_blue_text.svg" width="100" />
@@ -105,9 +105,9 @@ MorphoStuff uses the following technologies and tools:
 
 ## Contributing
 
-To contribute to the development of MorphoStuff, follow the steps below:
+To contribute to the development of morphostuff, follow the steps below:
 
-1. Fork MorphoStuff from <https://github.com/holsfastagz/MorphoStuff/fork>
+1. Fork morphostuff from <https://github.com/holsfastagz/morphostuff/fork>
 2. Create your feature branch (`git checkout -b feature-new`)
 3. Make your changes
 4. Commit your changes (`git commit -am 'Add some new feature'`)
@@ -125,4 +125,4 @@ Holsen B. Moore - [@h0ls.bsky.social](https://bsky.app/profile/h0ls.bsky.social)
 
 ## License
 
-MorphoStuff is distributed under the MIT license. See [`LICENSE`](LICENSE) for more details.
+morphostuff is distributed under the MIT license. See [`LICENSE`](LICENSE) for more details.
