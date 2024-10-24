@@ -1,4 +1,6 @@
-__all__ = ['pca', 'sigchar']
+from .pca import allom, morph_pca
+from .sigchar import significant_features
 
-from . import pca
-from . import sigchar
+__all__ = ['allom',
+           'morph_pca',
+           'significant_features']
