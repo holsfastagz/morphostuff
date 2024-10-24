@@ -1,10 +1,10 @@
 # morphostuff
 
 ![coverage](https://img.shields.io/badge/coverage-70%25-yellowgreen)
-![version](https://img.shields.io/badge/version-0.0.1-blue)
+![version](https://img.shields.io/badge/version-0.1-blue)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
-A small python package to aid morphometric analysis. Automates allometric
+A small Python package to aid morphometric analysis. Automates allometric
 correction and principal component analysis.
 
 **Table of Contents**
