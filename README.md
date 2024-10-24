@@ -99,7 +99,7 @@ Use `help(significant_features)` for more information.
 MorphoStuff uses the following technologies and tools:
 
 - [Python](https://www.python.org/): ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-- [Polars](https://pola.rs/): <img src="https://github.com/pola-rs/polars-static/blob/master/logos/polars_logo_blue_text.svg" width="50" />
+- [Polars](https://pola.rs/): <img src="https://github.com/pola-rs/polars-static/blob/master/logos/polars_logo_blue_text.svg" width="100" />
 - [scikit-learn](https://scikit-learn.org/stable/): ![scikit-learn](https://github.com/scikit-learn/scikit-learn/blob/main/doc/logos/1280px-scikit-learn-logo.png)
 - [seaborn](https://seaborn.pydata.org/): ![seaborn](https://seaborn.pydata.org/_images/logo-wide-lightbg.svg)
 
