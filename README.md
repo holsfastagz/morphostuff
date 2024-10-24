@@ -18,11 +18,10 @@ correction and principal component analysis.
 
 ## Installation
 
-morphostuff is not in PyPI yet, but I plan to add it in soon. In the meantime,
-it can be downloaded from GitHub using pip.
+morphostuff can be installed using pip like so:
 
 ```sh
-python -m pip install morphostuff@git+https://github.com/holsfastagz/morphostuff.git
+python -m pip install morphostuff
 ```
 
 ## Execution / Usage
