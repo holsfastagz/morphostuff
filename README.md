@@ -74,7 +74,7 @@ morpho_data = mstuff.morph_pca(allom_data)
 This function outputs a table containing allometric size corrections, a table
 containing PCA results, and a PCA biplot.
 
-Use `help(mstuff.morpho_data)` for more information.
+Use `help(mstuff.morph_pca)` for more information.
 
 ### significant_features Function
 
