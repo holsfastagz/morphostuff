@@ -24,6 +24,12 @@ morphostuff can be installed using pip like so:
 python -m pip install morphostuff
 ```
 
+You should also install the required dependencies:
+
+```sh
+python -m pip install polars scikit-learn seaborn
+```
+
 ## Execution / Usage
 
 ### Importing
