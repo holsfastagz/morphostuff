@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/morphostuff/__init__.py
+src/morphostuff/pca.py
+src/morphostuff/sigchar.py
+src/morphostuff.egg-info/PKG-INFO
+src/morphostuff.egg-info/SOURCES.txt
+src/morphostuff.egg-info/dependency_links.txt
+src/morphostuff.egg-info/top_level.txt
