@@ -5,6 +5,20 @@ import seaborn as sns
 
 def significant_features(pca_data, scree_filename='scree.pdf', plot_dpi=300,
                          sigline=True, bar_filename='_significant_features.pdf'):
+    '''
+    Determines PCs that contribute to at least 90% of explained variance and
+    which features weigh heavily on each PC.
+    Parameters:
+        pca_data: a Polars or Pandas data frame
+        scree_filename: (default 'scree.pdf') filename of the scree plot
+        plot_dpi: (default 300) DPI of plots
+        sigline: (default True) whether you want a line specifying cutoff value
+        bar_filename: (default '_significant_features.pdf') filename of the barplots
+    Returns:
+        A CSV file containing significant PCs and their loadings, a CSV file
+        containing significance by feature, a scree plot, and bar plots of
+        significance of features.
+    '''
     if type(pca_data) is pd.core.frame.DataFrame:
         pca_data = pl.from_pandas(pca_data)
         is_polars = False
