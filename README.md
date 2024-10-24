@@ -120,7 +120,7 @@ Holsen B. Moore - [@h0ls.bsky.social](https://bsky.app/profile/h0ls.bsky.social)
 
 ## Change Log 
 
-- 0.0.1
+- 0.1
     - First working version.
 
 ## License
