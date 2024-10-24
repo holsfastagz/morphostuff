@@ -21,13 +21,13 @@ correction and principal component analysis.
 morphostuff can be installed using pip like so:
 
 ```sh
-python -m pip install morphostuff
+python3 -m pip install morphostuff
 ```
 
 You should also install the required dependencies:
 
 ```sh
-python -m pip install polars scikit-learn seaborn
+python3 -m pip install polars scikit-learn seaborn
 ```
 
 ## Execution / Usage
