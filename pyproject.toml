@@ -1,6 +1,6 @@
 [project]
-name = "MorphoStuff_holsfastagz"
-version = "0.0.1"
+name = "morphostuff_holsfastagz"
+version = "0.1"
 authors = [
     {name="Holsen B. Moore", email="holsenmoore@utexas.edu"},
 ]
